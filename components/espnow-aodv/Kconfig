@@ -1,0 +1,32 @@
+menu "AODV Routing Configuration"
+    config AODV_MAINTENANCE_INTERVALL
+        int "Maintenance Intervall in s"
+        default 20
+        help
+            Time in Seconds
+    config AODV_ROUTE_TIMEOUT_AGE
+        int "Unused Route Timeout in Intervalls"
+        default 6
+        help
+            Multiple of Garbage Collector Intervall i.e(6*20s=120s). 8-Bit Val so max is 255
+    config AODV_PEER_TIMEOUT_AGE
+        int "Unresponsive Peer Timeout in Intervalls"
+        default 3
+        help
+            Multiple of Garbage Collector Intervall i.e(3*20s=60s). 8-Bit Val so max is 255
+    config AODV_MIN_PEERING_RSSI
+        int "Min Peering RSSI in dBm"
+        default -85
+        help
+            Min RSSI of RREQ. If Signal is weaker REEQ will be droped so no instable Routs are created.
+    config AODV_ROUTE_TABE_SIZE
+        int "Route Table Size"
+        default 128
+        help
+            Limits the max number of Peers in a Network.
+    config AODV_RX_BUFFER_SIZE
+        int "Size of RX Buffer in Byte"
+        default 1028
+        help
+            Size of RX Buffer in Bytes.
+endmenu

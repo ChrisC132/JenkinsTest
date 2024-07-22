@@ -1,0 +1,9 @@
+[submodule "components/nowqtt-util"]
+	path = components/nowqtt-util
+	url = https://gitlab.fugri.de/espnow/nowqtt-util
+[submodule "components/espnow-aodv"]
+	path = components/espnow-aodv
+	url = http://gitlab.fugri.de/nowqtt/espnow-aodv.git
+[submodule "components/espnow-ota"]
+	path = components/espnow-ota
+	url = http://gitlab.fugri.de/nowqtt/espnow-ota.git

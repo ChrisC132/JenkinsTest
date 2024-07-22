@@ -1,0 +1,8 @@
+build/
+components/
+managed_components/
+dependencies.lock
+sdkconfig
+sdkconfig.old
+.cache
+esp_now_sec_key.h

@@ -1,0 +1,6 @@
+dependencies:
+  idf:
+    version: '>=5'
+  ota:
+    git: https://gitlab.fugri.de/nowqtt/espnow-ota
+    version: 1.1.0-rc.1

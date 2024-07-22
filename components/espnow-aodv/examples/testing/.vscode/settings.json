@@ -1,0 +1,15 @@
+{
+    "idf.portWin": "COM2",
+    "idf.flashType": "DFU",
+    "idf.adapterTargetName": "esp32s2",
+    "files.associations": {
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "*.ipp": "c"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s2-bridge.cfg"
+    ],
+    "idf.port": "/dev/ttyACM1"
+}
